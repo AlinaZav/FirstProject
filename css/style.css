@@ -1,0 +1,119 @@
+
+body, h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    font-size: 25px;
+    padding-left: 250px;
+    margin: 15px 0 19px 0;
+}
+.header{
+    height: 540px;
+    background-image: 
+        linear-gradient(to top, rgba(253,110,110,40%), rgba(253,110,110,40%)),
+        url(../img/John.png);
+    
+}
+.offer{
+    max-width: 940px;
+    max-height: 200px;
+    margin-left: 250px;
+    padding-top: 169px;
+}
+.title{
+    font-size: 47px;
+    color: #fff;
+    width: 780px;
+    height: 114px;
+}
+.btn{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 17px;
+    width: 166px;
+    height: 56px;
+    margin-top: 43px;
+    cursor: pointer;
+}
+.bt{
+    font-size: 18px;
+    width: 119px;
+    height: 56px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-left: 14px;
+    cursor: pointer;
+}
+button:hover{
+background: #FD6E6E;
+opacity: 0.4;
+border: double;
+}
+.can{
+    background-color: #EDEDED;
+    height: 488px;
+}
+.of{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-left: 70px;
+    color: #696969;
+}
+.of h2{
+    margin-right: 166px;
+    font-size: 31px;
+}
+.of p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.skill{
+    padding-left: 555px;
+}
+.project h2{
+    font-size: 31px;
+    color: #4D4D4D;
+    padding: 80px 0 33px 250px;
+}
+.job{
+    display: flex;
+    flex-wrap: wrap;
+}
+.two{
+    width: 628px;
+}
+.four, .five, .nine, .ten{
+    width: 674px;
+}
+.six, .seven, .eight{
+    width: 449.3px;
+}
+.touch{
+    background-color: #EDEDED;
+    height: 533px;
+}
+.touch h2{
+    font-size: 31px;
+    color: #4D4D4D;
+    padding-top: 79px;
+}
+.touch p {
+    font-size: 14px;
+    color: #A3A3A3;
+    line-height: 20px;
+}
+input {
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    color: #D1D1D1;
+}
