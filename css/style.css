@@ -1,5 +1,5 @@
 
-body, h1, h2, h3{
+body, h1, h2, h3, input{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0;
@@ -100,6 +100,8 @@ border: double;
 .touch{
     background-color: #EDEDED;
     height: 533px;
+    display: flex;
+    padding-left: 240px;
 }
 .touch h2{
     font-size: 31px;
@@ -110,10 +112,48 @@ border: double;
     font-size: 14px;
     color: #A3A3A3;
     line-height: 20px;
+    padding-top: 35px;
 }
 input {
     text-decoration: none;
     border: none;
     font-size: 20px;
     color: #D1D1D1;
+}
+.job img:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+.name, .email, .number, .describe {
+    width: 620px;
+    height: 58px;
+    background-color: #F7F7F7;
+}
+.email, .describe {
+    background-color: #fff ;
+}
+::placeholder {
+    color: #D1D1D1;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.describe{
+    height: 128px;
+}
+.field{
+    padding-left: 150px;
+    padding-top: 80px;
+}
+.buton{
+    width: 150px;
+    height: 56px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #D1D1D1;
+    cursor: pointer;
+}
+.footer p{
+    color: #C4C4C4;
+    margin: 35px 0px 35px 240px;
+    font-size: 15px;
 }
