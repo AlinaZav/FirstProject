@@ -105,9 +105,10 @@ border: double;
 .portfolio__project{
     width: 1440px;
     display: flex;
+    flex-wrap: wrap;
    padding-top: 149px;
 }
-.first-img__project, .two-img__project, .tree-img__project, .four-img__project, .five-img__project, .six-img__project, .seven-img__project, .eigth-img__project, .nine-img__project, .ten-img__project{
+.portfolio__project img{
         width: 100%;
         height: 100%;
         object-fit: cover;
