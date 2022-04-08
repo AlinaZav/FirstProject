@@ -4,7 +4,7 @@ body, h1, h2, h3, input{
     font-weight: 400;
     margin: 0;
     padding: 0;
-    width: 1440px;
+
 }
 .section-wrapper{
     max-width: 940px; 
@@ -107,10 +107,10 @@ border: double;
     left: 250px;
 }
 .portfolio__project{
-    width: 1440px;
     display: flex;
     flex-wrap: wrap;
    padding-top: 149px;
+   margin-left: 40px;
 }
 .portfolio__project img{
         width: 100%;
